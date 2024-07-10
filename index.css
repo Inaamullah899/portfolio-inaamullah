@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background-color: #be3144;
+  width: 100%;
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+.left{
+  color: white;
+  margin-top: 3px;
+  margin-left: 40px;
+  
+}
+.h-1{
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif;
+}
+.nav-btns {
+  margin-right: 40px;
+}
+.nav-btns-child {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+
+  padding: 23px 0px;
+}
+li:hover {
+  background-color: #45567d;
+}
+/* section2 */
+.section2 {
+  color: white;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.h-2 {
+  font-size: 70px;
+  margin-top: -50px;
+}
+.para-1 {
+  font-style: italic;
+  color: #be3144;
+  font-size: 40px;
+}
+/* section3 */
+.section3 {
+  background-color: #45567d;
+  width: 100%;
+  height: 750px;
+  color: white;
+}
+
+.heading2 {
+  display: flex;
+  justify-content: center;
+}
+.heading2-c {
+  border-bottom: 2px solid white;
+  margin-top: 35px;
+  font-size: 45px;
+}
+/* cards section  */
+.section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards {
+  margin-top: 50px;
+}
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.items {
+}
+.items:hover {
+  transform: scale(1.1);
+}
+img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  margin-top: 60px;
+  color: white;
+  background-color: #303841;
+  padding: 5px;
+  width: 130px;
+  font-size: 20px;
+  border: none;
+}
+.btn:hover{
+  background-color: #be3144;
+  transform: scale(1.1);
+}
+/* section4 */
+.section4{
+  background-color: #303841;
+  width: 100%;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.para-3{
+  font-style: italic;
+  font-size: 30px;
+  text-align: center;
+}
+.h-3{
+  font-size: 70px;
+}
+
+.section4-c1{
+}
+.contacts{
+
+}
+.contacts-c{
+  font-size: 25px;
+  padding: 20px;
+  color: white;
+}
+.contacts-c:hover{
+  
+  color: black;
+}
+.ftr{
+  border-top: 4px solid #be3144;
+  width: 100%;
+}
+.para-4{
+  text-align: center;
+  transform: translateY(60px);
+  font-size: 20px;
+}
